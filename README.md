@@ -1,7 +1,7 @@
 # APPL1_SOLID_Exercises
 Latihan mengimplementasikan SOLID design dalam pemrograman OOP
 
-### 1.StreamProgress 
+### 1. StreamProgress 
 Tujuan dari program ini adalah supaya bisa bekerja dengan beberapa macam stream. Strategi untuk menyelesaikan ini adalah dengan menggunakan OCP (Open-Closed Principle). Caranya adalah dengan membuat interface IStreamable yang memiliki abstract method Length dan abstract method Bytes. Kemudian selanjutnya membuat class File dan Music yang mengimplementasikan IStreamable.
 
 ### 2. GraphicsEditor
